@@ -2,9 +2,11 @@ package com.helper.camel.route;
 
 import org.apache.camel.Exchange;
 import org.apache.camel.Processor;
+import org.springframework.stereotype.Component;
 
 import com.helper.constant.RouteConstants;
 
+@Component("initCamelRouteBuilder")
 public class InitCamelRouteBuilder extends BaseRouteBuilder {
 
 	@Override
