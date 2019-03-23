@@ -6,6 +6,10 @@ import org.springframework.stereotype.Component;
 
 import com.helper.constant.RouteConstants;
 
+/**
+ * @author amrmalaj
+ *
+ */
 @Component("initCamelRouteBuilder")
 public class InitCamelRouteBuilder extends BaseRouteBuilder {
 
