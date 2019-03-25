@@ -78,11 +78,11 @@
 
 
 		<!-- https://mvnrepository.com/artifact/org.apache.camel/camel-jms -->
-		<dependency>
-			<groupId>org.apache.camel</groupId>
-			<artifactId>camel-jms</artifactId>
-			<version>${camel.version}</version>
-		</dependency>
+	<dependency>
+		<groupId>org.apache.camel</groupId>
+		<artifactId>camel-jms</artifactId>
+		<version>${camel.version}</version>
+	</dependency>
 
 
 		<dependency>

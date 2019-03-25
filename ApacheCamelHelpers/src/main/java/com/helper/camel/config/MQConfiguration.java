@@ -40,17 +40,9 @@ public class MQConfiguration {
 			activeMQComponent.setConfiguration(activeMQConfiguration);
 			activeMQComponent.setDeliveryPersistent(false);
 			activeMQComponent.setAsyncConsumer(true);
-			/**
-			 * Possible, that on restart of context due to config queue update, the logic
-			 * comes here. So we need to remove the component and add again.
-			 */
-			if (null != context.getComponent("activemq")) {
-				context.removeComponent("activemq");
-			}
 			context.addComponent("activemq", activeMQComponent);
 			context.setUseMDCLogging(true);
 			context.setHandleFault(true);
-			return;
 		}
 	}
 

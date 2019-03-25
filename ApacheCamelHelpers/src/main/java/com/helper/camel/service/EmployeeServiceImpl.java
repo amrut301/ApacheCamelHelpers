@@ -15,8 +15,8 @@ import com.helper.camel.dao.entities.Employee;
  * @author amrmalaj
  *
  */
-@Service
-public class EmployeeServiceImpl implements EmployeeService {
+@Service("employeeService")
+public class EmployeeServiceImpl extends AbstractBaseService implements EmployeeService {
 	@Autowired
 	private EmployeeDao employeeDao;
 
