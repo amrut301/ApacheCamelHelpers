@@ -6,4 +6,5 @@ package com.helper.camel.controller;
  */
 public class BaseController {
 
+	
 }

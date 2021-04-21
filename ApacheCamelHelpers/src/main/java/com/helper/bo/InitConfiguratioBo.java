@@ -7,7 +7,6 @@ package com.helper.bo;
 public class InitConfiguratioBo extends BaseBo{
 
 	/**
-	 * 
 	 */
 	private static final long serialVersionUID = 1L;
 	ConfigurationBo configruation;

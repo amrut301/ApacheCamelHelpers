@@ -6,6 +6,7 @@ import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 
 /**
  * @author amrmalaj
+ * 
  *
  */
 public class BaseBo implements Serializable {

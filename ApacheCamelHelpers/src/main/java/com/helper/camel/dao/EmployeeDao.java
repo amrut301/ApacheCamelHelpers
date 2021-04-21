@@ -10,5 +10,4 @@ public interface EmployeeDao {
 	public Optional<Employee> getEmployee(Integer employeeId);
 
 	public Integer saveEmployee(EmployeeBo employeeBo);
-
 }

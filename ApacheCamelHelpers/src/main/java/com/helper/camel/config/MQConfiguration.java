@@ -43,6 +43,7 @@ public class MQConfiguration {
 			context.addComponent("activemq", activeMQComponent);
 			context.setUseMDCLogging(true);
 			context.setHandleFault(true);
+			
 		}
 	}
 

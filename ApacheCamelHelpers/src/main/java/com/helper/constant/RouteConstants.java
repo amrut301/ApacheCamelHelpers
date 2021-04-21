@@ -6,7 +6,6 @@ package com.helper.constant;
  */
 public class RouteConstants {
 	public static final String INIT_ROUTE_ID = "initTimerRouteId";
-	
 	public static final String COMPONENT_DIRECT = "direct:";
 	
 	public static final String CONFIG_TIMER = "configRouteId";

@@ -13,10 +13,12 @@ import com.helper.camel.service.EmployeeService;
 /**
  * @author amrmalaj
  *
+ *
  */
 @RestController
 @RequestMapping("/employee")
 public class EmployeeController {
+
 	@Autowired
 	private EmployeeService employeeSevice;
 

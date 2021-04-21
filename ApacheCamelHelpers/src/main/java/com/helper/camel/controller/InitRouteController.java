@@ -24,6 +24,7 @@ public class InitRouteController {
 	@Autowired
 	private CamelContext camelContext;
 
+	
 	@Qualifier("initCamelRouteBuilder")
 	@Autowired
 	private InitCamelRouteBuilder initCamelRouteBuilder;

@@ -12,7 +12,6 @@ import com.helper.constant.RouteConstants;
  */
 @Component("initCamelRouteBuilder")
 public class InitCamelRouteBuilder extends BaseRouteBuilder {
-
 	@Override
 	public void configure() throws Exception {
 		from("timer://initTimer?repeatCount=1").routeId(RouteConstants.INIT_ROUTE_ID).process(new Processor() {

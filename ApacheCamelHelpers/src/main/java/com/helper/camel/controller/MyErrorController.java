@@ -16,6 +16,7 @@ public class MyErrorController implements ErrorController {
 		return "error Occured pelase try after sometime!!!";
 	}
 
+	
 	@Override
 	public String getErrorPath() {
 		return "/error";

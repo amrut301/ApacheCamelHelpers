@@ -11,7 +11,6 @@ import org.springframework.stereotype.Component;
  */
 @Component("publishTopicRouteBuilder")
 public class publishTopicRouteBuilder extends BaseRouteBuilder {
-
 	@Qualifier("transformExchangeProcessor")
 	@Autowired
 	private Processor transformExchangeProcessor;

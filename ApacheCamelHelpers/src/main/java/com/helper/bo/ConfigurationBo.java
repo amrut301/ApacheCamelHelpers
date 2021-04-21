@@ -6,6 +6,8 @@ package com.helper.bo;
  */
 public class ConfigurationBo extends BaseBo {
 
+	
+	
 	/**
 	 * 
 	 */

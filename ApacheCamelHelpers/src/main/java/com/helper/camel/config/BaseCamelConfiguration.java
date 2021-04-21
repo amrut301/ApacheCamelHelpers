@@ -25,6 +25,7 @@ public class BaseCamelConfiguration extends CamelConfiguration {
 	public List<RouteBuilder> routes() {
 		List<RouteBuilder> routeBuilders = new ArrayList<>();
 		/*
+		 *
 		 * if
 		 * (edgeConfigurationProperties.getIaimType().equals(EdgeConstants.IAIM_CLOUD))
 		 * { routeBuilders.add(setJmsConfigurationRouteBuilder); }

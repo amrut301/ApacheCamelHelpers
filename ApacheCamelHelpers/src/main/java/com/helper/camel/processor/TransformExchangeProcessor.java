@@ -9,7 +9,6 @@ import org.springframework.stereotype.Component;
  */
 @Component("transformExchangeProcessor")
 public class TransformExchangeProcessor extends AbstractBaseProcessor {
-
 	@Override
 	public void process(Exchange exchange) throws Exception {
 		try {

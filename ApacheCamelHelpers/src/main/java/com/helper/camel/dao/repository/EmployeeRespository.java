@@ -9,5 +9,4 @@ import com.helper.camel.dao.entities.Employee;
  *
  */
 public interface EmployeeRespository extends JpaRepository<Employee, Integer> {
-
 }

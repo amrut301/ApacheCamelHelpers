@@ -20,7 +20,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableAutoConfiguration(exclude = { CamelAutoConfiguration.class, ActiveMQAutoConfiguration.class })
 @EnableJpaRepositories
 public class ApacheCamelHelpersApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(ApacheCamelHelpersApplication.class, args);
 	}

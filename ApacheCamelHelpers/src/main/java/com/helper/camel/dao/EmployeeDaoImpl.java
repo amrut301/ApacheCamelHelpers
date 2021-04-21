@@ -15,7 +15,6 @@ import com.helper.camel.dao.repository.EmployeeRespository;
  */
 @Repository
 public class EmployeeDaoImpl implements EmployeeDao {
-
 	@Autowired
 	private EmployeeRespository employeeRepository;
 

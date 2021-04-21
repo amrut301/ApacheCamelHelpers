@@ -8,6 +8,7 @@ public class EmployeeBo extends BaseBo {
 
 	/**
 	 * 
+	 * 
 	 */
 	private static final long serialVersionUID = -4707243769224797397L;
 
